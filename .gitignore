@@ -1,0 +1,7 @@
+*.pyc
+.DS_Store
+.git
+.project
+.idea
+mysite/db.sqite3
+

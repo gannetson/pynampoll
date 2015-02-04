@@ -1,0 +1,5 @@
+Django==1.7.4
+selenium==2.44.0
+factory_boy==2.4.1
+pytz==2014.10
+
