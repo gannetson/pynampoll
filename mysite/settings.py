@@ -162,4 +162,5 @@ LOGGING = {
 }
 
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
-
+SELENIUM_DRIVER = 'Chrome'
+SELENIUM_TEST_ENABLED = True
