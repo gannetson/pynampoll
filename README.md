@@ -7,14 +7,7 @@ Getting Started
 ---------------
 
 ### Initial Setup ###
-1. Make a new virtualenv: ``virtualenv env``
-2. Activate the virtualenv: ``source env/bin/activate``
-3. Install Django: ``pip install Django``
-4. Edit ``mysite/settings.py:36`` to match your timezone
-5. Run the server: ``python manage.py runserver``
-6. Open website in browser at ``http://localhost:8000/polls`` or admin at ``http://localhost:8000/admin`` (admin:admin)
+1. Create settigns/local.py base on local.py.example
+2. Make sure you have ChromeDriver in a executable path  https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-### After initial setup ###
-1. Activate the virtualenv: ``source env/bin/activate``
-2. Run the server: ``python manage.py runserver``
-3. Open website in browser at ``http://localhost:8000/polls`` or admin at ``http://localhost:8000/admin`` (admin:admin)
+Is is smart to use virtualenv-wrapper
